@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portafolio académico de Daniel Estrella, estudiante en Ingeniería en Tecnologías de la Información."
+    />
+    <meta name="theme-color" content="#0b1220" />
+    <title>Daniel Estrella | Portafolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top site-nav">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#inicio"
+          ><span class="brand-mark">DE</span> Daniel Estrella</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Abrir navegación"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="inicio" class="hero-section d-flex align-items-center">
+        <div class="container py-5">
+          <div class="row justify-content-center text-center">
+            <div class="col-12 col-lg-9">
+              <h1 class="display-4 fw-bold mb-3">Daniel Estrella</h1>
+              <p class="hero-role mb-3">
+                Estudiante en Ingeniería en Tecnologías de la Información
+              </p>
+              <p class="hero-copy mx-auto mb-4">
+                Me interesan la ciberseguridad, el pentesting, el desarrollo de
+                soluciones tecnológicas y la administración de sistemas. Estoy
+                en constante aprendizaje y desarrollo de proyectos relacionados
+                con la tecnología y la seguridad informática.
+              </p>
+              <div
+                class="d-flex flex-column flex-sm-row justify-content-center gap-3"
+              >
+                <a class="btn btn-accent btn-lg" href="#proyectos"
+                  >Ver mis proyectos <span aria-hidden="true">↘</span></a
+                >
+                <a class="btn btn-outline-light btn-lg" href="#contacto"
+                  >Contactarme</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="section-space">
+        <div class="container">
+          <div class="section-heading text-center mb-4">
+            <p class="eyebrow">UN POCO SOBRE MÍ</p>
+            <h2 class="h1 fw-bold">Sobre mí</h2>
+          </div>
+          <div class="about-panel mx-auto">
+            <p class="mb-0">
+              Soy estudiante en Ingeniería en Tecnologías de la Información. Me
+              interesa aprender mediante la práctica, crear herramientas útiles
+              y explorar áreas como la ciberseguridad, el pentesting y la
+              administración de sistemas.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="section-space section-muted">
+        <div class="container">
+          <div class="section-heading text-center mb-5">
+            <p class="eyebrow">TRABAJO Y PRÁCTICA</p>
+            <h2 class="h1 fw-bold">Proyectos</h2>
+            <p class="section-intro mx-auto">
+              Una selección de proyectos técnicos y repositorios personales.
+            </p>
+          </div>
+          <div class="row g-4">
+            <div class="col-12 col-md-4">
+              <article class="card project-card h-100">
+                <div class="project-visual visual-vm" aria-hidden="true">
+                  <span>01</span>
+                  <div class="visual-symbol">⇄</div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h3 class="h5 card-title">VirtualBox to VMware</h3>
+                  <p class="card-text">
+                    Proyecto orientado a convertir máquinas virtuales de
+                    VirtualBox para utilizarlas en VMware.
+                  </p>
+                  <div class="mt-auto">
+                    <span class="badge skill-badge">Virtualización</span>
+                    <span class="badge skill-badge">Sistemas</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-12 col-md-4">
+              <article class="card project-card h-100">
+                <div class="project-visual visual-docker" aria-hidden="true">
+                  <span>02</span>
+                  <div class="visual-symbol">▤</div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h3 class="h5 card-title">Entorno Docker</h3>
+                  <p class="card-text">
+                    Archivos de configuración y despliegue de un entorno Docker
+                    para prácticas de pentesting.
+                  </p>
+                  <div class="mt-auto">
+                    <span class="badge skill-badge">Docker</span>
+                    <span class="badge skill-badge">Linux</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-12 col-md-4">
+              <article class="card project-card h-100">
+                <div class="project-visual visual-ctf" aria-hidden="true">
+                  <span>03</span>
+                  <div class="visual-symbol">&lt;/&gt;</div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h3 class="h5 card-title">CTF Scripts</h3>
+                  <p class="card-text">
+                    Repositorio de scripts especializados para apoyar la
+                    resolución de distintos retos CTF.
+                  </p>
+                  <div class="mt-auto">
+                    <span class="badge skill-badge">Python</span>
+                    <span class="badge skill-badge">Bash</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades" class="section-space">
+        <div class="container">
+          <div class="section-heading text-center mb-5">
+            <p class="eyebrow">TECNOLOGÍAS</p>
+            <h2 class="h1 fw-bold">Habilidades técnicas</h2>
+            <p class="section-intro mx-auto">
+              Tecnologías y herramientas que forman parte de mi aprendizaje.
+            </p>
+          </div>
+          <div
+            class="skills-wrap mx-auto d-flex flex-wrap justify-content-center gap-3"
+          >
+            <span class="badge skill-pill">HTML <span>Básico</span></span>
+            <span class="badge skill-pill">CSS <span>Básico</span></span>
+            <span class="badge skill-pill">JavaScript <span>Básico</span></span>
+            <span class="badge skill-pill">PHP <span>Básico</span></span>
+            <span class="badge skill-pill">Bash <span>Básico</span></span>
+            <span class="badge skill-pill">Linux <span>Básico</span></span>
+            <span class="badge skill-pill">Python <span>Básico</span></span>
+          </div>
+        </div>
+      </section>
+
+      <section id="cv" class="cv-section py-5">
+        <div class="container">
+          <div
+            class="cv-panel d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-4"
+          >
+            <div>
+              <p class="eyebrow mb-2">CURRÍCULUM</p>
+              <h2 class="h3 fw-bold mb-2">¿Quieres conocer más sobre mí?</h2>
+              <p class="mb-0 muted-copy">
+                Mi CV estará disponible aquí cuando añada el archivo PDF.
+              </p>
+            </div>
+            <a
+              class="btn btn-accent btn-lg flex-shrink-0"
+              href="cv/cv.pdf"
+              target="_blank"
+              rel="noopener"
+              >Ver / descargar CV <span aria-hidden="true">↓</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="section-space">
+        <div class="container text-center">
+          <div class="section-heading mb-4">
+            <p class="eyebrow">HABLEMOS</p>
+            <h2 class="h1 fw-bold">Contacto</h2>
+            <p class="section-intro mx-auto">
+              Puedes escribirme por correo electrónico.
+            </p>
+          </div>
+          <a class="contact-email" href="mailto:daestrella8@espe.edu.ec"
+            >daestrella8@espe.edu.ec</a
+          >
+          <div class="social-links d-flex justify-content-center gap-3 mt-4">
+            <span class="social-placeholder" title="Enlace pendiente"
+              >GitHub · pendiente</span
+            >
+            <span class="social-placeholder" title="Enlace pendiente"
+              >LinkedIn · pendiente</span
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer py-4">
+      <div
+        class="container d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2"
+      >
+        <p class="mb-0">© <span id="year"></span> Daniel Estrella</p>
+        <a href="#inicio" class="back-top">Volver arriba ↑</a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

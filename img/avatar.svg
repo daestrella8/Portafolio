@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Avatar provisional de Daniel Estrella</title>
+  <desc id="desc">Círculo azul oscuro con las iniciales DE.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#193b63"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="118" fill="url(#bg)"/>
+  <circle cx="120" cy="120" r="101" fill="none" stroke="#55a7ff" stroke-opacity=".35" stroke-width="2"/>
+  <path d="M40 120h25M175 120h25M120 40v25M120 175v25" stroke="#55a7ff" stroke-opacity=".35" stroke-width="2"/>
+  <text x="120" y="137" fill="#edf4ff" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" text-anchor="middle">DE</text>
+  <circle cx="184" cy="62" r="7" fill="#60d6a5"/>
+</svg>
